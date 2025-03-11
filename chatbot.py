@@ -29,5 +29,3 @@ if prompt := st.chat_input("Say something..."):
     with st.chat_message("assistant"):
         st.markdown(response.text)
         
-
-
